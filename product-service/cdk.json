@@ -3,6 +3,7 @@
   "watch": {
     "include": [
       "**"
+      
     ],
     "exclude": [
       "README.md",
