@@ -18,6 +18,7 @@ exports.setup = function(options, seedLink) {
   Promise = options.Promise;
 };
 
+
 exports.up = function(db) {
   var filePath = path.join(__dirname, 'sqls', '20240323102729-user-address-up.sql');
   return new Promise( function( resolve, reject ) {
