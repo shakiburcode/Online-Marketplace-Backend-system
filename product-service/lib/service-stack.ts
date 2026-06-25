@@ -11,6 +11,7 @@ interface ServiceProps {
   bucket?: any;
 }
 
+
 export class ServiceStack extends Construct {
   public readonly productService: NodejsFunction;
   public readonly categoryService: NodejsFunction;
