@@ -10,6 +10,7 @@ interface ApiGatewayStackProps {
   queueService: IFunction;
 }
 
+
 interface ResourceType {
   name: string;
   methods: string[];
