@@ -11,6 +11,7 @@ type ProductModel = {
 
 export type ProductDoc = mongoose.Document & ProductModel;
 
+
 const productSchema = new mongoose.Schema(
   {
     name: String,
