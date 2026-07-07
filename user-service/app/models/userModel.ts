@@ -1,5 +1,6 @@
 import { AddressModel } from "./addressModel";
 
+
 export interface UserModel {
   user_id?: number;
   email: string;
