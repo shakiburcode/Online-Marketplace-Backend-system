@@ -6,4 +6,5 @@ export interface AddressModel {
   city: string;
   post_code: string;
   country: string;
+  
 }
